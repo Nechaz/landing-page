@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #1f2937;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 32px;
+  justify-content: flex-end;
+}
+li {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+h3 {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.hero-image {
+  height: 310px;
+  width: 620px;
+  object-fit: cover;
+}
+
+.first-section {
+  padding: 64px 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #1f2937;
+}
+
+.hero-text {
+  margin: 0;
+  font-size: 48px;
+  font-weight: bolder;
+  color: #f9faf8;
+}
+
+.sign-up {
+  color: #e5e7eb;
+  font-size: 18px;
+  width: 128px;
+  height: 48px;
+  background-color: #3882f6;
+  border: none;
+  border-radius: 8px;
+}
+
+.hero-p {
+  margin: 24px 0 24px 0;
+}
+
+/* !? */
+.ranking {
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: bold;
+}
+.second-section {
+  display: flex;
+  justify-content: center;
+  gap: 64px;
+}
+.covers {
+  width: 192px;
+  height: 288px;
+  object-fit: cover;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+}
+
+.second-section p {
+  width: 192px;
+  text-align: center;
+  color: black;
+}
+
+.third-section {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.fourth-section {
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  margin: 64px 328px 64px 328px;
+  border-radius: 16px;
+  display: flex;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+
+.last-button {
+  width: 162px;
+  height: 48px;
+  border: 2px solid #f9faf8;
+  border-radius: 8px;
+  color: #f9faf8;
+  font-size: 18px;
+  background-color: transparent;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f9faf8;
+  height: 64px;
+  background-color: #1f2937;
+}
