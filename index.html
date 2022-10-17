@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Landing Page</title>
   </head>
   <body>
@@ -17,24 +18,27 @@
     </header>
     <div class="first-section">
       <div class="card">
-        <h1>Number one in the world</h1>
-        <p>Best website for buying manga online at the best prices</p>
-        <button class="sing-up">Sign up</button>
+        <h1 class="hero-text">Number one in the world</h1>
+        <p class="hero-p">
+          Best website for buying manga online at the best prices
+        </p>
+        <button class="sign-up">Sign up</button>
       </div>
-      <img src="./assets/mangas.webp" alt="A image with manga" />
+      <img
+        class="hero-image"
+        src="./assets/mangas.webp"
+        alt="A image with manga"
+      />
     </div>
+    <h1 class="ranking">Best selling manga</h1>
     <div class="second-section">
-      <h1>Best selling manga</h1>
       <div>
         <img
           class="covers"
           src="./assets/onepiece.webp"
           alt="One Piece manga cover"
         />
-        <p>
-          Luffy sets out on his adventure, in search of the legendary "One
-          Piece"
-        </p>
+        <p>One Piece No. 1</p>
       </div>
       <div>
         <img
@@ -42,10 +46,7 @@
           src="./assets/jujutsukaisen.webp"
           alt="Jujutsu Kaisen manga cover"
         />
-        <p>
-          Although Yuji Itadori looks like your average teenager, his immense
-          physical strength is something to behold!
-        </p>
+        <p>Jujutsu Kaisen No. 2</p>
       </div>
       <div>
         <img
@@ -53,10 +54,7 @@
           src="./assets/bleach.webp"
           alt="Bleach manga cover"
         />
-        <p>
-          It's Ichigo's job to protect the innocent from Hollows and help the
-          spirits themselves find peace.
-        </p>
+        <p>Bleach No. 3</p>
       </div>
       <div>
         <img
@@ -64,7 +62,7 @@
           src="./assets/vinlandsaga.webp"
           alt="Vinland Saga manga cover"
         />
-        <p>No one is your enemy. You have no enemies at all.</p>
+        <p>Vinland Saga No. 4</p>
       </div>
     </div>
     <div class="third-section">
@@ -74,9 +72,11 @@
       <p>Monkey D Luffy | One Piece</p>
     </div>
     <div class="fourth-section">
-      <h1>Call to action it's time!</h1>
-      <p>Don't miss our best sales. Sing up now!</p>
-      <button>Sing Up</button>
+      <div>
+        <h1>Call to action it's time!</h1>
+        <p>Don't miss our best sales. Sing up now!</p>
+      </div>
+      <button class="last-button">Sing Up</button>
     </div>
     <footer>&copy; 2022 The Odin Project</footer>
   </body>

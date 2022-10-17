@@ -41,7 +41,9 @@ h3 {
   justify-content: space-around;
   background-color: #1f2937;
 }
-
+.first-section p {
+  color: #f9faf8;
+}
 .hero-text {
   margin: 0;
   font-size: 48px;
@@ -86,7 +88,7 @@ h3 {
 .second-section p {
   width: 192px;
   text-align: center;
-  color: black;
+  color: #1f2937;
 }
 
 .third-section {
@@ -94,19 +96,29 @@ h3 {
   color: #1f2937;
   font-size: 36px;
   font-style: italic;
+  display: flex;
+  height: 128px;
+  margin-top: 32px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .fourth-section {
   justify-content: center;
   align-items: center;
   gap: 32px;
-  margin: 64px 328px 64px 328px;
+  margin: 64px 428px 64px 428px;
   border-radius: 16px;
   display: flex;
   background-color: #3882f6;
   color: #f9faf8;
 }
-
+.fourth-section p {
+  margin-top: 0;
+}
+.fourth-section h1 {
+  margin: 16px 0 0 0;
+}
 .last-button {
   width: 162px;
   height: 48px;
